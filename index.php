@@ -1,5 +1,5 @@
 <?php
- $host = "simpel.biz";  // Hostname of your MySQL server (usually "localhost" on cPanel)
+ $host = "103.30.147.28";  // Hostname of your MySQL server (usually "localhost" on cPanel)
  $username = "simpelbi_admin";  // MySQL username
  $password = "simpel2023";  // MySQL password
  $database = "simpelbi_simpel";  // Name of your database
