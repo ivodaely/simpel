@@ -9,11 +9,11 @@
 
 // Check the connection
   if (!$connection) {
-      die("Connection failed: " . mysqli_connect_error());
+      $say = "Connection Where ???";
   }
 
   // Connected successfully
-  echo "Connected to the MySQL database.";
+ $say= "Connected to the MySQL database.";
 
   // Now you can perform database operations here
 
@@ -21,4 +21,9 @@
   mysqli_close($connection);
 ?>
 
-
+<html>
+  <head>SIMPEL</head>
+  <BODY>
+    <h1><?=$say?></h1>
+  </BODY>
+</html>
