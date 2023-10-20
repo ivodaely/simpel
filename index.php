@@ -1,7 +1,7 @@
 <?php
-	include "connect.php";
-	if (empty($_SERVER['REQUEST_URI'])) {
-    $_SERVER['REQUEST_URI'] = '/';
+	//include "connect.php";
+	//if (empty($_SERVER['REQUEST_URI'])) {
+    //$_SERVER['REQUEST_URI'] = '/';
 }
 
 ?>
